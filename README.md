@@ -1,12 +1,12 @@
-# LunchPoll
+# Google Form Lunch Poll
 Lunch poll, written in Google apps script!
-
+***
 ## This script sends a Google form with lunch options each day, except for holidays and weekends.
 
 ### Notes:
 * **Weekend is set for Friday/Saturday configuraion but can be changed for Saturday/Sunday.**
 * **Holidays are for Israel (isr), but can also be changed to another country.**
-
+***
 
 ### Things you need for this google apps script are:
 
@@ -21,7 +21,7 @@ Lunch poll, written in Google apps script!
 ![alt text](screenshots/Form1.JPG "")
 ![alt text](screenshots/Form2.JPG "")
 
-
+***
 
 #### Properties needed for this app (defined in "script properties"):
 * LUNCH_FORM_ID
@@ -29,7 +29,7 @@ Lunch poll, written in Google apps script!
 * OUTPUT_FOLDER_ID
 * LUNCH_FOLDER_ID
 * SLACK_WEBHOOK_URL
-
+***
 #### Additional links:
 * http://jivimberg.github.io/blog/2014/08/21/email-google-form-daily/
 * https://api.slack.com/incoming-webhooks
